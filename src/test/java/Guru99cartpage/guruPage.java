@@ -16,8 +16,7 @@ public class guruPage
 	}
 	
 	//Locators
-	private By quantity=By.xpath("//select[@name='quantity']");
-	private By slectButton=By.xpath("//input[@value='Buy Now']");
+	
 	private By cardNumber=By.id("card_nmuber");
 	private By month=By.id("month");
 	private By year=By.id("year");
@@ -25,21 +24,10 @@ public class guruPage
 	private By clickbutton=By.name("submit");
 	
 	//Methods
-	public void selectQuantity()
-	{
-		WebElement qua=driver.findElement(quantity);
-		qua.click();
-		Utility.selectBasedDropdown(qua,"9");
-	}
-	
-	public void selectbutton()
-	{
-		driver.findElement(slectButton).click();
-	}
 	
 	public void setCardnumber()
 	{
-		driver.findElement(cardNumber).sendKeys("123456789");
+		driver.findElement(cardNumber).sendKeys("1234567891234567");
 		
 	}
 	public void setmonth()

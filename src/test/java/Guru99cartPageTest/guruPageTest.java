@@ -4,16 +4,6 @@ import org.testng.annotations.Test;
 
 public class guruPageTest extends BaseClass
 {
-	@Test(priority=1)
-	public void testquantity()
-	{
-		gp.selectQuantity();
-	}
-  @Test(priority=2)
-  public void selectdrop() 
-  {
-	gp.selectbutton();
-  }
   
   @Test(priority=3)
   public void testCardNumber()

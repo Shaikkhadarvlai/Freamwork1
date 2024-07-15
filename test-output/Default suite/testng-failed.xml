@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AmazonPageTest.WatchesPageTest">
+      <class name="TestPageTest.GooglePageTest">
         <methods>
-          <include name="setPage"/>
-          <include name="testwatches"/>
+          <include name="test"/>
           <include name="SetBrowser"/>
-          <include name="testWatches"/>
+          <include name="scrollpoint"/>
+          <include name="element"/>
+          <include name="setpage"/>
         </methods>
-      </class> <!-- AmazonPageTest.WatchesPageTest -->
+      </class> <!-- TestPageTest.GooglePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
