@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Guru99cartPageTest.guruPageTest">
+      <class name="shopingDemo">
         <methods>
-          <include name="testclick"/>
-          <include name="testCardNumber"/>
-          <include name="selectDropdown"/>
-          <include name="setpage"/>
-          <include name="testcod"/>
-          <include name="testmonth"/>
-          <include name="testyear"/>
+          <include name="payment"/>
+          <include name="applicationtest"/>
         </methods>
-      </class> <!-- Guru99cartPageTest.guruPageTest -->
-      <class name="Guru99cartPageTest.Guru99homepageTest">
-        <methods>
-          <include name="selectDropdown"/>
-          <include name="setpage"/>
-          <include name="selectdrop"/>
-          <include name="testquantity"/>
-        </methods>
-      </class> <!-- Guru99cartPageTest.Guru99homepageTest -->
+      </class> <!-- shopingDemo -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

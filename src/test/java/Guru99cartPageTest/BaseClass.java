@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 
 import Guru99cartpage.Guru99homepage;
 import Guru99cartpage.guruPage;
+import Sourcecode1.hlepcode;
 
 public class BaseClass 
 {
@@ -33,12 +34,35 @@ public class BaseClass
 	public void setpage()
 	{
 		hp.selectQuantity();
+		hlepcode.getScreenshot(driver);
+		
 		hp.selectbutton();
+		hlepcode.getScreenshot(driver);
+		
 		 gp.setCardnumber();
+			hlepcode.getScreenshot(driver);
+		 
 		 gp.setmonth();
+			hlepcode.getScreenshot(driver);
+		 
 		 gp.setyaer();
+			hlepcode.getScreenshot(driver);
+		 
 		  gp.setcod();
+			hlepcode.getScreenshot(driver);
+		 
 		  gp.clickbutton();
+	}
+	
+	public void addWait()
+	{
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 

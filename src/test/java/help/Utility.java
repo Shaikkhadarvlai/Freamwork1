@@ -15,7 +15,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 public class Utility
 {
 
@@ -25,7 +24,7 @@ public class Utility
 //		  File temp=ts.getScreenshotAs(OutputType.FILE);
 //		  
 //		  //location
-//		  File dest=new File("./"+"\\Screenshots\\SwagLab"+System.currentTimeMillis()+".png");
+//		  File dest=new File("./"+"\\short\\Amazon"+System.currentTimeMillis()+".png");
 //		  
 //		  try {
 //			FileHandler.copy(temp, dest);
@@ -34,6 +33,10 @@ public class Utility
 //			e.printStackTrace();
 //		}
 //	}
+
+	
+	
+	
 	
 	
 	

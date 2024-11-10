@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPageTest.GooglePageTest">
+      <class name="shopingDemo">
         <methods>
-          <include name="test"/>
-          <include name="SetBrowser"/>
-          <include name="scrollpoint"/>
-          <include name="element"/>
-          <include name="setpage"/>
+          <include name="payment"/>
+          <include name="applicationtest"/>
         </methods>
-      </class> <!-- TestPageTest.GooglePageTest -->
+      </class> <!-- shopingDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

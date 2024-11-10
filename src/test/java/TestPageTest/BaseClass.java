@@ -30,6 +30,25 @@ public class BaseClass
    public void setpage()
    
    {
-	   
+	   gp.Search();
+	  
+	   addWait();
+	   gp.element();
+	   addWait();
+	   gp.scroll();
+	   addWait();
    }
+   
+   
+   public void addWait()
+   {
+	   try {
+		Thread.sleep(2000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+   }
+   
+   
 }
